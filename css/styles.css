@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* bodyに対する初期設定 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+/* bodyの全体に対する設定 */
+#wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+  border: 0px;
+  background-color: #FFF;
+}
+
+/* hedderに対するスタイル */
+.header {
+  width: 100%;
+}
+
+.heade h1 {
+  margin: 0;
+  padding: 0;  
+}
+
+.corridor {
+  width: 100%;
+  height: auto;
+}
+
+/* footerに対するスタイル */
+.footer {
+  clear: both;
+  width: 100%;
+  padding: 3px 0;
+  background: skyblue;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* メニューのスタイル */
+.nav {
+  width: 100%;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.nav ul li a {
+  display: block;
+  height: 20px;
+  margin: 0;
+  padding: 10px;
+  border-radius: 20px;
+  color:gray;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: aqua;
+}
+/* メインのスタイル */
+#container {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  padding-top: 20px;
+  clear: both;
+}
+
+#main {
+  float: left;
+  width: 60%;
+  padding: 10px 30px 10px 10px;
+}
+
+#main h2 {
+  margin: 0 0 10px 0;
+  padding: 3px 10px;
+  color: white;
+  font-size: 16px;
+  border-left: solid 10px red;
+  background: #F90 url(../images/main_h2.jpg) right top repeat-y;
+}
+
+#main p {
+  margin: 0;
+  padding: 0;
+}
+
+#main .post {
+  margin: 0 0 30px 0;
+}
+
+#main .post img.right {
+  margin: 0 0 0 8px; 
+}
+
+#main .post img.left {
+  margin: 0 8px 0 0; 
+}
+
+.right {
+  float: right;
+  width: 40%;
+  height: auto;
+}
+.left {
+  float: left;
+  width: 40%;
+  height: auto;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#side {
+  float: right;
+  width: 30%;
+  padding: 20px;
+  background-color:orange;
+  border-radius: 5px;
+} 
+
+#side .box {
+  margin: 0 auto 30px auto;
+  padding: 0 0 20px 0;
+  background: url(images/side_box.png) bottom no-repeat;
+}
+
+#side .box h2 {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  background: url(images/side_box_h2.png) center no-repeat;
+}
+
+#side .box .boxBody {
+  padding: 8px;
+  border-right: solid 2px red;
+  border-bottom: solid 2px red;
+  border-left: solid 2px red;
+  background: white;
+}
+
+#side .box .boxBody ul {
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+#side .box .boxBody ul li {
+  padding: 8px 0 8px 4px;
+  list-style: none;
+  border-bottom: solid 2px red;
+}
+
+/* 他のプログラミングスクールで作った一部を組み込もうとしたがうまく表示できない */
+
+/* .services-section-bar {
+  color: white;
+  font-size: 19px;
+  font-weight: 900;
+  letter-spacing: 3.2px;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #323232;
+}
+
+.service-cardarea {
+  display: flex;
+}
+
+.service-card {
+  width: 33.333%;
+}
+
+.service-card + .service-card .service-textarea {
+  border-left: 1px solid #ddd;
+}
+
+.service-textarea {
+  text-align: center;
+}
+
+.service-logo {
+  width: 227px;
+  margin-top: 10px;
+}
+
+.service-btn {
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  padding: 10px 80px;
+  background-color: #11376b;
+  border-radius: 22px;
+  display: inline-block;
+  margin: 16px 0 30px;
+}
+
+.service-btn.service-btn-for-programming {
+  background-color: #a93032;
+} */
